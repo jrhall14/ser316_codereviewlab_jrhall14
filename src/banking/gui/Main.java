@@ -1,3 +1,11 @@
+/*
+  File:	Main.java
+  Author:	SER316 Class material - Actual Author Unknown
+  Date:	  April 2017
+  
+  Description: This is the driver of the banking account program for Lab 4.
+*/
+
 package banking.gui;
 
 import javax.swing.JFrame;
