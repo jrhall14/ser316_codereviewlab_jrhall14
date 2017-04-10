@@ -15,10 +15,10 @@ public abstract class Account implements java.io.Serializable {
         name = n;
         state = State.OPEN;
     }
-
-    protected Account(String n, float b) {
-        this(n); 
-        balance = b;
+    // Defect 4 - Fix identifier names
+    protected Account(String myName, float myBalance) {
+        this(myName); 
+        balance = myBalance;
     }
 
     /**
